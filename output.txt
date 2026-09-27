@@ -1,0 +1,32 @@
+===== K-WAY MERGE USING MIN HEAP =====
+
+Initial Heap: [10 20 15]
+
+Output 1 -> 10
+Output 2 -> 15
+Output 3 -> 20
+Output 4 -> 30
+Output 5 -> 35
+Output 6 -> 40
+Output 7 -> 50
+Output 8 -> 55
+Output 9 -> 60
+Output 10 -> 70
+Output 11 -> 75
+Output 12 -> 80
+
+Final Output:
+10 15 20 30 35 40 50 55 60 70 75 80
+
+Number of key comparisons = 21
+
+
+===== PAIRWISE MERGING =====
+
+After merging L1 and L2:
+10 20 30 40 50 60 70 80
+
+After merging with L3:
+10 15 20 30 35 40 50 55 60 70 75 80
+
+Number of key comparisons = 18
