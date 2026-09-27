@@ -1,0 +1,14 @@
+COMPARISON TABLE
+================
+
+Parameter              Min Heap K-Way       Pairwise Merge
+------------------------------------------------------------
+Number of lists              3                    3
+Total elements              12                   12
+Maximum heap size            3                    -
+Comparisons                 21                   18
+Time complexity         O(N log K)             O(NK)
+Space complexity            O(K)                O(N)
+Intermediate result          No                  Yes
+Scalability               Better              Decreases
+with many files
