@@ -1,0 +1,54 @@
+COMPLEXITY ANALYSIS
+===================
+
+1. K-WAY MERGE USING MIN HEAP
+
+Let:
+N = total number of elements
+K = number of sorted lists
+
+Time Complexity:
+O(N log K)
+
+Space Complexity:
+O(K)
+
+Maximum Heap Size:
+K
+
+For this problem:
+K = 3
+N = 12
+
+Maximum heap size = 3
+
+
+2. PAIRWISE MERGING
+
+Time Complexity:
+O(NK) for sequential pairwise merging
+
+Space Complexity:
+O(N)
+
+For this problem:
+N = 12
+K = 3
+
+
+3. NUMBER OF COMPARISONS
+
+Min Heap:
+21 comparisons
+
+Pairwise:
+18 comparisons
+
+
+4. SCALABILITY
+
+When the number of sorted files increases, the
+Min Heap K-way merge becomes more scalable because
+its time complexity is O(N log K).
+
+Sequential pairwise merging can require O(NK) time.
